@@ -82,6 +82,6 @@ def main():
     fichier1=str(raw_input("Enter the name of the first file : "))
     fichier2=str(raw_input("Enter the name of the second file : "))
     dualSubMaker(fichier1, fichier2)
-    print("File "+fichier1[:fichier1.find(".")]+"_converted.ass successfully generated")fichier1 = str(raw_input("Enter the name of the first file :
+    print("File "+fichier1[:fichier1.find(".")]+"_converted.ass successfully generated")
 if __name__ == '__main__':
     main()
